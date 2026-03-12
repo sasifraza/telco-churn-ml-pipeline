@@ -2,6 +2,12 @@
 
 This project predicts telecom customer churn using machine learning.
 
+Model accuracy: 0.82
+Top churn drivers:
+- Contract type
+- Tenure
+- Monthly charges
+
 ## Project Components
 
 - Data preprocessing
@@ -31,6 +37,7 @@ pip install pandas scikit-learn matplotlib seaborn joblib
 2. Run the training script
 
 python train.py
+
 
 3. Open the notebook for exploration
 
